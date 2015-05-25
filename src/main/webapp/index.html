@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		
+		<title>Chatting page</title>
+		<link rel = "shortcut icon" href = "resources/images/envelope.png" type = "image/png">
+		<link href = "resources/bootstrap/css/bootstrap.css" rel = "stylesheet">
+		<link href = "resources/css/style.css" rel = "stylesheet">
+		<script src = "resources/js/jquery-1.10.2.js"></script>
+		<script src = "resources/js/scripts1.js"></script>
+
+	</head>
+
+	<body onload = "run();">
+		<img src = "resources/images/greenLamp.jpg" alt = "Server is OK" id = "greenLamp">
+		<img src = "resources/images/redLamp.jpg" alt = "Error" id = "redLamp">
+		<h1 align = "center"> Chatting room </h1>
+
+		<section class = "inputName">
+			<form id = "form1" class = "form-inline" align = "center">
+	  			<input id = "nameInputText" type = "text" class = "input-small" placeholder = "Name" required>
+	  			<label class = "checkbox">
+	    			<input type = "checkbox"> Remember me &nbsp </input>
+	  			</label>
+	  			<button type = "button" class = "btn btn-success"> Send </button>
+			</form>
+
+			<form id = "form2" class = "form-inline" align = "center">
+  				<input id = "nameChangeText" type = "text" class = "input-small" placeholder = "Change name" required> </input>
+  				<button type = "button" class = "btn btn-info"> Send </button>
+			</form>
+		</section>
+
+		<div class = "history"></div>
+
+		<div class = "inputMsg">
+			<img src = "resources/images/coolMan.jpg" alt = "User picture" width = "120" align = "center" id = "coolMan">
+			<textarea rows = "3" id = "inputMsgText" placeholder = "Input message"></textarea>
+			<button type = "submit" class = "btn btn-primary" id = "sendBtn"> Send message </button>
+		</div>
+		<h6 align = "center" > &copy 2015 Yana Yaroshevich</h6>
+	</body>
+</html>

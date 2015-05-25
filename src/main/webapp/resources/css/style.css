@@ -1,0 +1,105 @@
+body{
+	background-color: #FFFFBE;
+}
+
+h1 {
+	color: #003264;
+	font-weight: 500;
+	font-size: 50px;
+	margin-top: 0%;
+}
+
+h3 {
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 45%;
+	color: #003264;
+}
+
+h6 {
+	color: #003264;
+	font-size: 12px;
+	margin-top: 10.25%;
+	background-color: #B0ECF4;
+}
+
+textarea {
+	border: 1px solid #003264;
+	font-family: "Times New Roman", Times, serif;
+}
+
+img {
+	margin-top: 0.37%;
+	left: 10.25%;
+	position: absolute;
+}
+
+.form-inline{
+	position: absolute;
+	margin-top: 2%;
+}
+
+#form1{
+	margin-left: 37%;
+}
+
+#form2{
+	visibility: hidden;
+	margin-left: 42%;
+}
+
+.history{
+	margin-top: 6%;
+	margin-right: 10%;
+	margin-left: 10%;
+    font-size: 20px;
+    color: #003264;
+	background-color:#B0ECF4;
+	overflow-y: scroll;
+	height: 330px;
+}
+
+.history .userMessage:hover{
+	background: #003264;
+    color: #B0ECF4;
+}
+
+#inputMsgText{
+	margin-left: 22%;
+	margin-top: 0.37%;
+	width: 20%;
+	height: 13%;
+	position: absolute;
+	visibility: hidden;
+}
+
+#sendBtn{
+	margin-left: 22%;
+	margin-top: 7.5%;
+	position: absolute;
+	visibility: hidden;
+}
+
+#greenLamp{
+	position: absolute;
+	visibility: hidden;
+}
+
+#redLamp{
+	position: absolute;
+	visibility: visible;
+}
+
+#coolMan{
+	visibility: hidden;
+}
+
+.userName{
+	font-weight: bold;
+}
+
+.flag{
+	font-weight: bold;
+	color: #ff0000;
+	font-size: 15px;
+}
